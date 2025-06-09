@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: jamuna
 
 steps:
 - script: echo Hello, world!
